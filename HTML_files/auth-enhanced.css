@@ -694,6 +694,15 @@ a:focus-visible {
     width: 24px;
     height: 24px;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-text {
+    line-height: 1;
+    display: flex;
+    align-items: center;
 }
 
 /* ========================================
