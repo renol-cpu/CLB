@@ -611,6 +611,10 @@ a:focus-visible {
     border-radius: var(--radius-lg);
     cursor: pointer;
     transition: all var(--transition-base);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-3);
 }
 
 .btn-secondary:hover:not(:disabled) {
