@@ -1037,7 +1037,7 @@
                 alert(`✓ Connected successfully!\n\nWallet: ${walletName}\nAddress: ${dummyAddress.substring(0, 10)}...${dummyAddress.substring(34)}`);
                 
                 // Redirect to dashboard (would be created separately)
-                window.location.href = 'dashboard.html';
+                window.location.href = 'dashboard-enhanced.html';
             }, 2000);
         }
 
@@ -1094,7 +1094,7 @@
                     localStorage.setItem('userContact', input);
                     
                     // Redirect to dashboard
-                    window.location.href = 'dashboard.html';
+                    window.location.href = 'dashboard-enhanced.html';
                 }
             }, 2000);
         }
@@ -1102,7 +1102,7 @@
         // Check if already logged in
         if (localStorage.getItem('connectedWallet') || localStorage.getItem('authMethod')) {
             if (confirm('You are already logged in. Go to dashboard?')) {
-                window.location.href = 'dashboard.html';
+                window.location.href = 'dashboard-enhanced.html';
             }
         }
 
@@ -1168,7 +1168,7 @@
                     
                     setTimeout(() => {
                         closeSocialModal();
-                        window.location.href = 'dashboard.html';
+                        window.location.href = 'dashboard-enhanced.html';
                     }, 1500);
                 }, 2000);
             }, 500);

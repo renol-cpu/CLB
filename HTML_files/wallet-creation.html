@@ -1628,7 +1628,7 @@
                     'convert': 'convert.html',
                     'donate': 'donate.html',
                     'send': 'send.html',
-                    'dashboard': 'dashboard.html'
+                    'dashboard': 'dashboard-enhanced.html'
                 };
                 
                 const targetPage = pageMap[returnPage] || returnPage;
@@ -1637,7 +1637,7 @@
                 window.location.href = `${targetPage}?from=wallet-creation`;
             } else {
                 // Default: go to dashboard
-                window.location.href = 'dashboard.html?from=wallet-creation';
+                window.location.href = 'dashboard-enhanced.html?from=wallet-creation';
             }
         }
 

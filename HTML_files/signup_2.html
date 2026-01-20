@@ -1270,7 +1270,7 @@
                             We never share your information without your consent.
                         </div>
 
-                        <button type="button" class="submit-btn" onclick="window.location.href='kyc.html'">
+                        <button type="button" class="submit-btn" onclick="window.location.href='kyc-verify.html'">
                             Start Identity Verification
                         </button>
                         <button type="button" class="btn btn-secondary" style="width: 100%; padding: 0.875rem; border: 1.5px solid rgba(0, 0, 0, 0.1); border-radius: 0.75rem; background: white; font-family: var(--font-body); font-size: 0.938rem; font-weight: 500; color: var(--stone-dark); cursor: pointer; transition: all 0.2s; margin-top: 0.75rem;" onclick="nextStep(3)">Back</button>
@@ -1611,7 +1611,7 @@
                     localStorage.setItem('userName', 'Jane Smith');
                     localStorage.setItem('userEmail', 'jane@example.com');
                     localStorage.setItem('userInitials', 'JS');
-                    window.location.href = 'dashboard.html';
+                    window.location.href = 'dashboard-enhanced.html';
                 }, 1500);
             }, 2000);
         }
@@ -1661,7 +1661,7 @@
                     localStorage.setItem('walletAddress', '0x742d...3a8f');
                     closeMetaMaskModal();
                     // Skip to dashboard or profile completion based on role
-                    window.location.href = 'dashboard.html';
+                    window.location.href = 'dashboard-enhanced.html';
                 }, 1500);
             }, 1500);
         }
@@ -1695,7 +1695,7 @@
                     localStorage.setItem('userInitials', 'JS');
                     localStorage.setItem('walletAddress', '0x1a2b...9c8d');
                     closeWalletConnectModal();
-                    window.location.href = 'dashboard.html'; // Redirect to dashboard
+                    window.location.href = 'dashboard-enhanced.html'; // Redirect to dashboard
                 }, 1500);
             }, 2000);
         }
@@ -1729,7 +1729,7 @@
                     localStorage.setItem('userInitials', 'JS');
                     localStorage.setItem('walletAddress', '0x9f3e...2d1c');
                     closeCoinbaseModal();
-                    window.location.href = 'dashboard.html'; // Redirect to dashboard
+                    window.location.href = 'dashboard-enhanced.html'; // Redirect to dashboard
                 }, 1500);
             }, 1500);
         }
